@@ -1,6 +1,6 @@
 /obj/item/weapon/reagent_containers/food/snacks/meat
-	name = "\proper any meat"
-	desc = "You shouldn't see this, this is a prototype item. Tell a developer immediately!"
+	name = "meat"
+	desc = "A slab of meat."
 	icon = 'icons/obj/food_ingredients.dmi'
 	icon_state = "meat"
 	slice_path = /obj/item/weapon/reagent_containers/food/snacks/rawcutlet
@@ -35,19 +35,8 @@
 // TODO: rewrite kitchen code to check a var on the meat item so we can remove
 // all these subtypes.
 /obj/item/weapon/reagent_containers/food/snacks/meat/human
-	name = "meat"
-	desc = "Some red meat. Maybe it's pork?"
-/obj/item/weapon/reagent_containers/food/snacks/meat/human/Initialize()
-	. = ..()
-	if(prob(10))
-		desc += " Looks a bit long."
 /obj/item/weapon/reagent_containers/food/snacks/meat/monkey
-	name = "meat"
-	desc = "Some red meat. Maybe it's pork?"
-/obj/item/weapon/reagent_containers/food/snacks/meat/monkey/Initialize()
-	. = ..()
-	if(prob(10))
-		desc = " Looks a bit long, but shorter."
+	//same as plain meat
 
 /obj/item/weapon/reagent_containers/food/snacks/meat/corgi
 	name = "corgi meat"
@@ -63,7 +52,6 @@
 
 /obj/item/weapon/reagent_containers/food/snacks/meat/chicken
 	name = "chicken meat"
-	desc = "Rooster and spheroid torment, from NTPedia, the free encyclopedia."
 	icon = 'icons/obj/aurora/food.dmi'
 	icon_state = "chickenbreast"
 	cooked_icon = "chickenbreast_cooked"
