@@ -101,11 +101,11 @@
 	bandages_icon = 'icons/mob/bandage.dmi'
 	primitive_form = "Neaera"
 	unarmed_types = list(/datum/unarmed_attack/stomp, /datum/unarmed_attack/kick, /datum/unarmed_attack/punch, /datum/unarmed_attack/bite)
-	description = "An amphibious species, Skrell come from the star system known as Qerr'Vallis, which translates to 'Star of \
-	the royals' or 'Light of the Crown'.<br/><br/>Skrell are a highly advanced and logical race who live under the rule \
-	of the Qerr'Katish, a caste within their society which keeps the empire of the Skrell running smoothly. Skrell are \
-	herbivores on the whole and tend to be co-operative with the other species of the galaxy, although they rarely reveal \
-	the secrets of their empire to their allies."
+	description = "The Skrell are a species of amphibious humanoids hailing from the world of Jargon\
+	(Or Qerr’balak in Skrellian), a hot, humid planet with numerous swamps and jungles. More\
+	technologically advanced than humanity, their ancient society is still recovering from a civil war\
+	that threatened to turn their civilization into a nightmarish dystopia approximately 150 years ago.\
+	Skrell tend to be cooperative with other species, but are focused on their own state of affairs."
 	assisted_langs = list(LANGUAGE_NABBER)
 	health_hud_intensity = 1.75
 	meat_type = /obj/item/weapon/reagent_containers/food/snacks/fish/octopus
